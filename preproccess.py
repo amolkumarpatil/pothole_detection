@@ -80,8 +80,8 @@ class Preprocess:
 if __name__ == '__main__':
 
     data_gen = GenerateData()
-    gt_path = r"H:\workspace\pothole_detection\dataset\pothole600\validation\GT\*.png"
-    rgb_path = r"H:\workspace\pothole_detection\dataset\pothole600\validation\RGB"
-    road_out = r"H:\workspace\pothole_detection\dataset\pothole600\validation\classification\test\road"
-    pothole_out = r"H:\workspace\pothole_detection\dataset\pothole600\validation\classification\test\pothole"
+    gt_path = r"H:\workspace\pothole_detection\D3NetBenchmark\dataset\pothole600\validation\GT\*.png"
+    rgb_path = r"H:\workspace\pothole_detection\D3NetBenchmark\dataset\pothole600\validation\RGB"
+    road_out = r"H:\workspace\pothole_detection\D3NetBenchmark\dataset\pothole600\validation\classification\test\road"
+    pothole_out = r"H:\workspace\pothole_detection\D3NetBenchmark\dataset\pothole600\validation\classification\test\pothole"
     data_gen.process(gt_path, rgb_path, road_out, pothole_out)

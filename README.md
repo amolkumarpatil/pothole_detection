@@ -25,6 +25,7 @@ This repo contains all the files to train and test both neural networks.
 * `preprocess.py` - Preprocess data for classification CNN
 * `dataset.py` -  Load dataset for classification CNN
 * `dataloader_rgbdsod.py` - Load dataset for RGBD Network
+* `isolate_pothole.py` - Pothole isolation
 
 ## Inference
 
