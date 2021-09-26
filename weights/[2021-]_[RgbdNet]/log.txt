@@ -1,0 +1,178 @@
+Load checkpoint from [weights/[2021-]_[RgbdNet]/best.pth]
+Start time :  2021-09-26 00:12:33
+---[   NOTE:    ]---
+------------------------------------------------------------------------------- 
+infos :  {'datasets_path': './dataset/pothole600/', 'train_datasets': ['./dataset/pothole600/training', './dataset/pothole600/validation'], 'val_datasets': ['./dataset/pothole600/testing'], 'gpu_ids': [], 'start_epoch': 3, 'epochs': 20, 'bs': 8, 'lr': 1e-05, 'num_workers': 4, 'optimizer': ['Adam', {'weight_decay': 0, 'betas': [0.9, 0.99]}], 'scheduler': ['Constant', {}], 'if_memory': False, 'max_num': 0, 'size': (224, 224), 'train_only_epochs': 0, 'val_interval': 1, 'model': 'RgbdNet', 'resume': 'weights/[2021-]_[RgbdNet]/best.pth', 'note': '', 'if_use_tensorboard': False, 'snapshot_path': 'weights/[2021-]_[RgbdNet]', 'if_debug': 0, 'if_only_val': 0, 'if_save_checkpoint': True} 
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+Epoch [003]=>    |-lr:['0.0000100']-|  
+
+Training :
+Loss: 0.185
+Validation :
+Validation [testing]
+Loss: 0.252
+[testing]-> mae:0.1227 f_max:0.3513
+Metric_Select[MAE]: 0.1227 (0.1227)
+-------------------------------------------------------------------------------
+Epoch [004]=>    |-lr:['0.0000100']-|  
+
+Training :
+Loss: 0.148
+Validation :
+Validation [testing]
+Loss: 0.183
+[testing]-> mae:0.1005 f_max:0.5542
+Metric_Select[MAE]: 0.1005 (0.1005)
+-------------------------------------------------------------------------------
+Epoch [005]=>    |-lr:['0.0000100']-|  
+
+Training :
+Loss: 0.105
+Validation :
+Validation [testing]
+Loss: 0.153
+[testing]-> mae:0.0860 f_max:0.6246
+Metric_Select[MAE]: 0.0860 (0.0860)
+-------------------------------------------------------------------------------
+Epoch [006]=>    |-lr:['0.0000100']-|  
+
+Training :
+Loss: 0.089
+Validation :
+Validation [testing]
+Loss: 0.134
+[testing]-> mae:0.0787 f_max:0.6663
+Metric_Select[MAE]: 0.0787 (0.0787)
+-------------------------------------------------------------------------------
+Epoch [007]=>    |-lr:['0.0000100']-|  
+
+Training :
+Loss: 0.080
+Validation :
+Validation [testing]
+Loss: 0.129
+[testing]-> mae:0.0738 f_max:0.7156
+Metric_Select[MAE]: 0.0738 (0.0738)
+-------------------------------------------------------------------------------
+Epoch [008]=>    |-lr:['0.0000100']-|  
+
+Training :
+Loss: 0.075
+Validation :
+Validation [testing]
+Loss: 0.120
+[testing]-> mae:0.0736 f_max:0.7513
+Metric_Select[MAE]: 0.0736 (0.0736)
+-------------------------------------------------------------------------------
+Epoch [009]=>    |-lr:['0.0000100']-|  
+
+Training :
+Loss: 0.067
+Validation :
+Validation [testing]
+Loss: 0.118
+[testing]-> mae:0.0590 f_max:0.7744
+Metric_Select[MAE]: 0.0590 (0.0590)
+-------------------------------------------------------------------------------
+Epoch [010]=>    |-lr:['0.0000100']-|  
+
+Training :
+Loss: 0.062
+Validation :
+Validation [testing]
+Loss: 0.103
+[testing]-> mae:0.0532 f_max:0.7920
+Metric_Select[MAE]: 0.0532 (0.0532)
+-------------------------------------------------------------------------------
+Epoch [011]=>    |-lr:['0.0000100']-|  
+
+Training :
+Loss: 0.058
+Validation :
+Validation [testing]
+Loss: 0.095
+[testing]-> mae:0.0498 f_max:0.8192
+Metric_Select[MAE]: 0.0498 (0.0498)
+-------------------------------------------------------------------------------
+Epoch [012]=>    |-lr:['0.0000100']-|  
+
+Training :
+Loss: 0.053
+Validation :
+Validation [testing]
+Loss: 0.093
+[testing]-> mae:0.0453 f_max:0.8146
+Metric_Select[MAE]: 0.0453 (0.0453)
+-------------------------------------------------------------------------------
+Epoch [013]=>    |-lr:['0.0000100']-|  
+
+Training :
+Loss: 0.052
+Validation :
+Validation [testing]
+Loss: 0.109
+[testing]-> mae:0.0446 f_max:0.8270
+Metric_Select[MAE]: 0.0446 (0.0446)
+-------------------------------------------------------------------------------
+Epoch [014]=>    |-lr:['0.0000100']-|  
+
+Training :
+Loss: 0.049
+Validation :
+Validation [testing]
+Loss: 0.090
+[testing]-> mae:0.0418 f_max:0.8379
+Metric_Select[MAE]: 0.0418 (0.0418)
+-------------------------------------------------------------------------------
+Epoch [015]=>    |-lr:['0.0000100']-|  
+
+Training :
+Loss: 0.046
+Validation :
+Validation [testing]
+Loss: 0.096
+[testing]-> mae:0.0426 f_max:0.8334
+Metric_Select[MAE]: 0.0426 (0.0418)
+-------------------------------------------------------------------------------
+Epoch [016]=>    |-lr:['0.0000100']-|  
+
+Training :
+Loss: 0.049
+Validation :
+Validation [testing]
+Loss: 0.091
+[testing]-> mae:0.0421 f_max:0.8307
+Metric_Select[MAE]: 0.0421 (0.0418)
+-------------------------------------------------------------------------------
+Epoch [017]=>    |-lr:['0.0000100']-|  
+
+Training :
+Loss: 0.046
+Validation :
+Validation [testing]
+Loss: 0.083
+[testing]-> mae:0.0402 f_max:0.8528
+Metric_Select[MAE]: 0.0402 (0.0402)
+-------------------------------------------------------------------------------
+Epoch [018]=>    |-lr:['0.0000100']-|  
+
+Training :
+Loss: 0.044
+Validation :
+Validation [testing]
+Loss: 0.078
+[testing]-> mae:0.0417 f_max:0.8571
+Metric_Select[MAE]: 0.0417 (0.0402)
+-------------------------------------------------------------------------------
+Epoch [019]=>    |-lr:['0.0000100']-|  
+
+Training :
+Loss: 0.043
+Validation :
+Validation [testing]
+Loss: 0.092
+[testing]-> mae:0.0402 f_max:0.8491
+Metric_Select[MAE]: 0.0402 (0.0402)
+-------------------------------------------------------------------------------
+End time :  2021-09-26 04:13:24

@@ -1,0 +1,10 @@
+tensorflow
+opencv-python
+numpy
+matplotlob
+tqdm
+shutil
+pandas
+Pillow
+torch
+torchvision==0.10.0+cpu
