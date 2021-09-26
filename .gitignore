@@ -3,3 +3,4 @@
 *.png
 .idea
 __pycache__
+output/results/testing/png

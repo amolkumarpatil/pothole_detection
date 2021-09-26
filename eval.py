@@ -68,3 +68,4 @@ for index, test_loader in enumerate(test_loaders):
         out_path = os.path.join(result_path,id+'.png')
         cv2.imwrite(out_path, out_img)
 print("Processing completed......")
+print("Processing completed......")
