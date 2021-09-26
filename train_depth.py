@@ -40,7 +40,7 @@ def SetLogFile(file_path='log'):
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--net', type=str, default='RgbNet', choices=['RgbNet', 'RgbdNet', 'DepthNet'], help='train net')
+parser.add_argument('--net', type=str, default='RgbNet', choices=['RgbdNet'], help='train net')
 args = parser.parse_args()
 
 utils.set_seed(10)
@@ -71,7 +71,8 @@ p['val_interval'] = 1
 
 # p['model'] = args.net
 p['model'] = 'RgbdNet'
-p['resume'] = 'weights/[{}]_[{}]/{}'.format(time.strftime('%Y-', time.localtime(time.time())), p['model'],'best.pth')
+p['resume'] = None
+# p['resume'] = 'weights/[{}]_[{}]/{}'.format(time.strftime('%Y-', time.localtime(time.time())), p['model'],'rgbd.pth')
 
 p['note'] = ''
 p['if_use_tensorboard'] = False
