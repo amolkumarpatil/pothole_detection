@@ -67,3 +67,4 @@ for index, test_loader in enumerate(test_loaders):
         out_img = classify.detect_n_draw_bb(opencv_image, sample_batched['meta']['img_path'][0])
         out_path = os.path.join(result_path,id+'.png')
         cv2.imwrite(out_path, out_img)
+print("Processing completed......")

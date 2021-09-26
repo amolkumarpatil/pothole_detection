@@ -60,7 +60,7 @@ class Classify:
             prediction_array = prediction/pred_norm
             # print(prediction_array)
             # print('decode',decode_predictions(prediction))
-            if prediction_array[0][0] > 0.4:
+            if prediction_array[0][0] > 0.7:
                 # print('pothole')
                 cv2.rectangle(in_img, (x, y), (x + w, y + h), (255, 0, 0), 1)
                 txt = 'pothole'
